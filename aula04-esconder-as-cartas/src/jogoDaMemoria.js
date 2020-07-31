@@ -37,9 +37,10 @@ class JogoDaMemoria {
 
         this.tela.atualizarImagens(copias)
 
-        setTimeout(() => {
-            this.heroisEscondidos(copias)
-        }, 1000);
+        setTimeout(()=>{
+            this.enconderHerois(copias)
+        },1000)
+       
     }
 
     enconderHerois(herois){
@@ -48,7 +49,7 @@ class JogoDaMemoria {
         //usando a sintaxe ({chave: 1}) estamos falando que vamos retornar o que tiver
         //dentro dos parenteses. Quando não usamos: (exemplo do id), o JS entende que
         //o nome é o mesmo do valor, Ex. id: id, vira id
-        const heroisOcultos = herois.map(({nome, id}) => ({
+        const heroisOcultos = herois.map(({ nome, id }) => ({
             id,
             nome,
             img: this.iconePadrao
