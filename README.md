@@ -10,9 +10,9 @@ Jogo da Memória
 
 ## Indice
 - [Sobre](#-Sobre)
-- [Conteúdo do aprendizado](#-Conteúdo-do-aprendizado)
-- [Tecnologias utilizadas](#-Tecnologias-utilizadas)
-- [Baixando o Projeto](#-Baixando-o-Projeto)
+- [Conteúdo do aprendizado](#-Conteúdo)
+- [Tecnologias utilizadas](#-Tecnologias)
+- [Baixando o Projeto](#-Baixando)
 ---
 
 ## 📄 Sobre 
@@ -29,20 +29,18 @@ O projeto foi criado durante o treinamento online **Fundamentos de JavaScript**,
 
 ---
 
-## 🚀 Tecnologias usadas
+## 🚀 Tecnologias
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML) ✔
 - [BOOTSTRAP](https://getbootstrap.com/) ✔
 - [JavaScript](https://devdocs.io/javascript/) ✔
 
 ---
 
-## Baixando o Projeto
+## Baixando
 ```bash
 # Clonando o repositório para a sua máquina
 $ git clone https://github.com/Ljuniorcode/jogoDaMemoria.git
 
 ```
 
----
 
-Feito com carinho durante o treinamento
